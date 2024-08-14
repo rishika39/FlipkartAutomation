@@ -1,0 +1,88 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1723654929.694][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
+            "RESPONSE": "[1723654932.604][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"127.0.6533.89\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"127.0.6533.119 (bdef6783a05f0b3f885591e7d2c7b2aec1a89dea-refs/branch-heads/6533@{#1999})\",\n         \"userDataDir\": \"C:\\\\Users\\\\V-RBAS~1\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir16596_1008003872\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:54772\"\n      },\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"webauthn:extension:prf\": true,\n      \"webauthn:virtualAuthenticators\": true\n   },\n   \"sessionId\": \"89e70b0898fa12aed91b63142ca46b41\"\n}\n"
+        },
+        {
+            "COMMAND": "[1723654933.415][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND MaximizeWindow {\n}\n",
+            "RESPONSE": "[1723654933.482][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE MaximizeWindow {\n   \"height\": 688,\n   \"width\": 1296,\n   \"x\": -8,\n   \"y\": -8\n}\n"
+        },
+        {
+            "COMMAND": "[1723654933.572][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1723654940.005][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1723654940.079][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1723654940.194][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.2F9A5005D5A80167DE7A6715476010D6.d.D51A8615CCA14B06C83BF0662879D4D1.e.109\"\n}\n"
+        },
+        {
+            "COMMAND": "[1723654940.474][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND TypeElement {\n   \"id\": \"f.2F9A5005D5A80167DE7A6715476010D6.d.D51A8615CCA14B06C83BF0662879D4D1.e.109\",\n   \"text\": \"Washing Machine\\n\",\n   \"value\": [ \"W\", \"a\", \"s\", \"h\", \"i\", \"n\", \"g\", \" \", \"M\", \"a\", \"c\", \"h\", \"i\", \"n\", \"e\", \"\\n\" ]\n}\n",
+            "RESPONSE": "[1723654948.407][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1723654948.456][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[text()='Popularity']\"\n}\n",
+            "RESPONSE": "[1723654948.520][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.2F9A5005D5A80167DE7A6715476010D6.d.715130FC24B17009C3DE321740AD5C26.e.321\"\n}\n"
+        },
+        {
+            "COMMAND": "[1723654948.587][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND IsElementEnabled {\n   \"id\": \"f.2F9A5005D5A80167DE7A6715476010D6.d.715130FC24B17009C3DE321740AD5C26.e.321\"\n}\n",
+            "RESPONSE": "[1723654948.609][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE IsElementEnabled true\n"
+        },
+        {
+            "COMMAND": "[1723654948.623][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND ClickElement {\n   \"id\": \"f.2F9A5005D5A80167DE7A6715476010D6.d.715130FC24B17009C3DE321740AD5C26.e.321\"\n}\n",
+            "RESPONSE": "[1723654948.921][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1723654948.935][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_3LWZlK']\"\n}\n",
+            "RESPONSE": "[1723654948.990][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1723654949.027][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1723654952.989][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1723654953.005][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1723654953.049][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.2F9A5005D5A80167DE7A6715476010D6.d.91FED28ED9E1EF281DD19A7195A83169.e.357\"\n}\n"
+        },
+        {
+            "COMMAND": "[1723654953.122][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND TypeElement {\n   \"id\": \"f.2F9A5005D5A80167DE7A6715476010D6.d.91FED28ED9E1EF281DD19A7195A83169.e.357\",\n   \"text\": \"iPhone\\n\",\n   \"value\": [ \"i\", \"P\", \"h\", \"o\", \"n\", \"e\", \"\\n\" ]\n}\n",
+            "RESPONSE": "[1723654958.456][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1723654958.504][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_1AtVbE')]\"\n}\n",
+            "RESPONSE": "[1723654958.619][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1723654958.631][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1723654960.880][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1723654960.896][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1723654961.014][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.2F9A5005D5A80167DE7A6715476010D6.d.A8ED374817EA6C9CBE5B015C0C69F7A6.e.631\"\n}\n"
+        },
+        {
+            "COMMAND": "[1723654961.089][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND TypeElement {\n   \"id\": \"f.2F9A5005D5A80167DE7A6715476010D6.d.A8ED374817EA6C9CBE5B015C0C69F7A6.e.631\",\n   \"text\": \"Coffee Mug\\n\",\n   \"value\": [ \"C\", \"o\", \"f\", \"f\", \"e\", \"e\", \" \", \"M\", \"u\", \"g\", \"\\n\" ]\n}\n",
+            "RESPONSE": "[1723654964.086][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1723654964.115][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@id=\\\"container\\\"]/div/div[3]/div[1]/div[1]/div/div/div/section[5]/div[2]/div/div[1]/div/label/div[1]\"\n}\n",
+            "RESPONSE": "[1723654964.233][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.2F9A5005D5A80167DE7A6715476010D6.d.67DBBFA22B036499D2D9050B4B0F81CB.e.729\"\n}\n"
+        },
+        {
+            "COMMAND": "[1723654964.441][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND IsElementEnabled {\n   \"id\": \"f.2F9A5005D5A80167DE7A6715476010D6.d.67DBBFA22B036499D2D9050B4B0F81CB.e.729\"\n}\n",
+            "RESPONSE": "[1723654964.599][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE IsElementEnabled true\n"
+        },
+        {
+            "COMMAND": "[1723654964.614][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND ClickElement {\n   \"id\": \"f.2F9A5005D5A80167DE7A6715476010D6.d.67DBBFA22B036499D2D9050B4B0F81CB.e.729\"\n}\n",
+            "RESPONSE": "[1723654964.983][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1723654965.003][INFO]: [89e70b0898fa12aed91b63142ca46b41] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_1AtVbE')]\"\n}\n",
+            "RESPONSE": "[1723654965.130][INFO]: [89e70b0898fa12aed91b63142ca46b41] RESPONSE FindElements [  ]\n"
+        }
+    ]
+}
